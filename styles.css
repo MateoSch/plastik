@@ -252,7 +252,13 @@ ul.show {
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
-        padding: 35px 0px;
+        padding: 35px 0px;    
+    }
+    .pie-pagina .caja{
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -356,11 +362,12 @@ ul.show {
 
 
 
+
 /*---------------------------REDES---------------------------*/
 
 .mainContainer {
     height:100%;
-    padding: 5% 10% 5% 10%;
+    padding: 5% 15% 5% 15%;
     align-items:center;
     display: block;
 }
@@ -434,4 +441,13 @@ svg circle {
 
 .cajaIcon:hover circle {
     stroke-dasharray: 220;
+}
+
+@media screen and (max-width: 800px) {
+    .mainContainer{
+        padding: 3%;
+    }
+    .formulario{
+        margin: 5% 0px 5% 0px;
+    }
 }
